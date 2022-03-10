@@ -10,9 +10,6 @@ func TestAdd(t *testing.T) {
 }
 
 func TestMultiply(t *testing.T) {
-    //self-assigned variable
-	x = x
-
 	//duplicated string literals
 	var a string = "Hello"
 	var b string = "Hello"
