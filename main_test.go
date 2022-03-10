@@ -10,7 +10,11 @@ func TestAdd(t *testing.T) {
 }
 
 func TestMultiply(t *testing.T) {
-	
+	//duplicated string literals
+	var a string = "Hello"
+	var b string = "Hello"
+	var c string = "Hello"
+
 
 	got := multiply(3, 3)
 	if got != 9 {
